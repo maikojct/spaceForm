@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&family=Playfair+Display:ital,wght@0,500;1,500&family=Poppins:wght@100;300;500&family=Roboto:wght@400;700&family=Titillium+Web:wght@300&family=Unbounded:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+.bg {
+  background-image: url("space-911785_960_720.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+main {
+  display: block;
+  border-radius: 10px;
+  width: 10rem;
+  /* margin-top: 10rem;
+  margin-left: 38rem;
+
+  /* height: 30rem; */
+  display: block;
+  align-content: center;
+  /* background-color: #252931; */
+  /* background: rgb(133, 133, 133);
+  background: radial-gradient(
+    circle,
+    rgba(133, 133, 133, 1) 0%,
+    rgba(36, 39, 40, 1) 100% */
+}
+.logo {
+  padding-left: 4rem;
+  margin-bottom: 1rem;
+}
+.container {
+  padding-left: 42rem;
+  padding-top: 11rem;
+}
+.inputs {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  height: 2rem;
+  /* background-color: #252931; */
+  /* background: rgb(133, 133, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(133, 133, 133, 1) 0%,
+    rgba(36, 39, 40, 1) 100% */
+  /* ); */
+  background-color: transparent;
+  color: white;
+  width: 15rem;
+  border-radius: 5px;
+}
+input::placeholder {
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  /* background-color: #252931; */
+  /* background: rgb(133, 133, 133);
+  background: linear-gradient(
+    90deg,
+    rgba(133, 133, 133, 1) 0%,
+    rgba(36, 39, 40, 1) 100%
+  ); */
+  background-color: transparent;
+}
+.text {
+  height: 8rem;
+  width: 15rem;
+  font-family: "Titillium Web", sans-serif;
+  border-radius: 2px;
+  color: green;
+  background-color: black;
+}
+button {
+  /* background-color: #0b3d91; */
+  background: rgb(11, 56, 145);
+  background: radial-gradient(
+    circle,
+    rgba(11, 56, 145, 0.9023984593837535) 4%,
+    rgba(11, 54, 145, 0.9023984593837535) 100%
+  );
+  color: white;
+  font-family: "Titillium Web", sans-serif;
+  border-radius: 15px;
+  width: 5rem;
+  height: 2rem;
+  margin-left: 5rem;
+  border: none;
+  font-weight: bold;
+}
+button:hover {
+  border: black 2px solid;
+  transition: 0.2s;
+}
+.inputs:focus {
+  border: none;
+}
+.send {
+  font-size: 1.5rem;
+  width: 20rem;
+  color: white;
+}
+#sucesso {
+  padding-left: 4rem;
+  color: white;
+}
+.send2 {
+  padding-right: 2.2rem;
+  padding-top: 2rem;
+  font-size: 1rem;
+  width: 20rem;
+  color: white;
+}
+.backTotop {
+  height: 5rem;
+  padding-top: 6rem;
+  color: blue;
+  text-decoration: none;
+  font-weight: bold;
+}
+#sucesso {
+  padding-left: 42rem;
+  padding-top: 11rem;
+  width: 60rem;
+}
+@media (max-width: 1440px) {
+  .container {
+    padding-left: 38rem;
+    padding-top: 11rem;
+  }
+  #sucesso {
+    padding-left: 38rem;
+    padding-top: 11rem;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 26rem;
+    padding-top: 7rem;
+  }
+  #sucesso {
+    padding-left: 25rem;
+    padding-top: 10rem;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding-left: 18rem;
+    padding-top: 6rem;
+  }
+  .bg {
+    background-size: auto;
+  }
+  #sucesso {
+    padding-left: 18rem;
+    padding-top: 6rem;
+  }
+  .send2 {
+    width: 16rem;
+    margin-right: 0;
+  }
+}
+@media (max-width: 425px) {
+  .container {
+    padding-left: 6rem;
+  }
+  #sucesso {
+    padding-left: 6rem;
+  }
+}
+@media (max-width: 375px) {
+  .container {
+    padding-left: 4.5rem;
+  }
+  #sucesso {
+    padding-left: 4.5rem;
+  }
+}
