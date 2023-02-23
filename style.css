@@ -130,7 +130,7 @@ button:hover {
 @media (max-width: 1440px) {
   .container {
     padding-left: 38rem;
-    padding-top: 11rem;
+    padding-top: 5rem;
   }
   #sucesso {
     padding-left: 38rem;
