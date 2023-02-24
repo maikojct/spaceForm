@@ -166,10 +166,10 @@ button:hover {
 }
 @media (max-width: 425px) {
   .container {
-    padding-left: 6rem;
+    padding-left: 5rem;
   }
   #sucesso {
-    padding-left: 6rem;
+    padding-left: 5rem;
   }
 }
 @media (max-width: 375px) {
