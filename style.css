@@ -172,6 +172,9 @@ button:hover {
   #sucesso {
     padding-left: 5rem;
   }
+    .bg {
+    background-repeat: unset;
+  }
 }
 @media (max-width: 375px) {
   .container {
